@@ -35,9 +35,9 @@ app.post('/api/v1/savedreports', (req, res) => {
     res.status(201).json(app.locals.savedReports);
 });
 
-app.delete('/api/v1/savedreports', (req, res) => {
-    const { id } = req.body;
-    app.locals.savedReports = app.locals.savedReports.filter(task => task.id !== id)
+app.delete('/api/v1/savedreports/:id', (req, res) => {
+    let id = req.params.id
+    app.locals.savedReports = app.locals.savedReports.filter(task => task.id !== parseInt(id))
     
     res.status(201).json(app.locals.savedReports)
 });
