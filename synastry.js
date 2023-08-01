@@ -91,4 +91,7 @@ function getSynastry(month1, day1, month2, day2) {
 
 }
 
-module.exports = getSynastry;
+module.exports = {
+  getSynastry,
+  getZodiacSign
+};

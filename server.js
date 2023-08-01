@@ -4,7 +4,7 @@ const app = express();
 
 const animeCharacters = require('./data/animeCharacters')
 const savedReports = require('./data/savedReports')
-const getSynastry = require('./synastry')
+const {getSynastry, getZodiacSign} = require('./synastry')
 
 app.locals.title = "My Anime Ship API"
 app.locals.characters = animeCharacters
@@ -50,6 +50,18 @@ app.post('/api/v1/synastry', (req, res) => {
         res.sendStatus(404)
     }
 });
+
+app.post('/api/v1/zodiac', (req, res) => {
+    const {month, day} = req.body
+    const sign = getZodiacSign(month, day)
+
+    if (sign) {
+        res.status(200).json(sign)
+    } else {
+        res.sendStatus(404)
+    }
+});
+
 
 app.delete('/api/v1/savedreports/:id', (req, res) => {
     let id = req.params.id
