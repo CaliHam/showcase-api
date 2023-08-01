@@ -1,14 +1,14 @@
 const animeCharacters = [
     {
         id: 1,
-        name: "Naruto Uzumaki",
-        birthday: "October 10",
+        name: "Maximillion Pegasus",
+        birthday: "October 8",
         zodiac_sign: "Libra",
-        anime: "Naruto",
-        likes: ["Ramen", "Training", "Making Friends"],
-        dislikes: ["Vegetables", "Giving Up"],
-        image_url: "https://static.wikia.nocookie.net/boruto/images/9/9d/375px-NarutoBorutoMovie.jpg/revision/latest?cb=20200121144920",
-        wiki_page_url: "https://naruto.fandom.com/wiki/Naruto_Uzumaki"
+        anime: "Yu-Gi-Oh!",
+        likes: ["Wine", "Gorgonzola cheese", "cartoons", "cards"],
+        dislikes: ["Cuttlefish", "Squid"],
+        image_url: "https://u.cubeupload.com/User713646/aa4Screenshot20230731at.png",
+        wiki_page_url: "https://yugioh.fandom.com/wiki/Maximillion_Pegasus"
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const animeCharacters = [
         anime: "Attack on Titan",
         likes: ["Freedom", "avenging his mother"],
         dislikes: ["Titans", "oppression", "being powerless"],
-        image_url: "image_url_herehttps://static.wikia.nocookie.net/shingekinokyojin/images/a/a1/Eren_Jaeger_%28Anime%29_character_image.png/revision/latest?cb=20220123225500",
+        image_url: "https://u.cubeupload.com/User713646/Screenshot20230731at.png",
         wiki_page_url: "https://attackontitan.fandom.com/wiki/Eren_Yeager"
     },
     {
@@ -29,7 +29,7 @@ const animeCharacters = [
         anime: "One Piece",
         likes: ["Meat", "Adventure", "Becoming Pirate King"],
         dislikes: ["Negativity", "Being Betrayed"],
-        image_url: "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/239?cb=20200429191518",
+        image_url: "https://u.cubeupload.com/User713646/c83Screenshot20230731at.png",
         wiki_page_url: "https://onepiece.fandom.com/wiki/Monkey_D._Luffy"
     },
     {
@@ -40,7 +40,7 @@ const animeCharacters = [
         anime: "Hunter X Hunter",
         likes: ["Helping people", "medicine", "money"],
         dislikes: ["Being looked down upon", "losing a friend"],
-        image_url: "https://static.wikia.nocookie.net/hunterxhunter/images/7/73/HxH2011_EP145_Leorio_Portrait.png/revision/latest/scale-to-width-down/1000?cb=20220625011601",
+        image_url: "https://u.cubeupload.com/User713646/ad9Screenshot20230731at.png",
         wiki_page_url: "https://hunterxhunter.fandom.com/wiki/Leorio_Paradinight"
     },
     {
@@ -51,7 +51,7 @@ const animeCharacters = [
         anime: "Cowboy Bebop",
         likes: ["Bell peppers and beef", "jazz music", "martial arts"],
         dislikes: ["Taking life seriously", "bureaucracy"],
-        image_url: "https://static.wikia.nocookie.net/cowboybebop/images/7/73/Screen_Shot_2013-12-11_at_12.52.29_PM.png/revision/latest?cb=20140404054920",
+        image_url: "https://u.cubeupload.com/User713646/d89Screenshot20230731at.png",
         wiki_page_url: "https://cowboybebop.fandom.com/wiki/Spike_Spiegel"
     },
     {
@@ -62,7 +62,7 @@ const animeCharacters = [
         anime: "Attack on Titan",
         likes: ["Cleanliness", "tea", "his squad"],
         dislikes: ["Dirt", "disorder", "Titans"],
-        image_url: "https://static.wikia.nocookie.net/shingekinokyojin/images/f/f0/Levi_Ackermann_%28Anime%29_character_image_%28850%29.png/revision/latest?cb=20210124214225",
+        image_url: "https://u.cubeupload.com/User713646/efcScreenshot20230731at.png",
         wiki_page_url: "https://attackontitan.fandom.com/wiki/Levi_Ackermann_(Anime)"
     },
     {
@@ -73,7 +73,7 @@ const animeCharacters = [
         anime: "Haikyuu!!",
         likes: ["Coaching", "his team", "training", "smoking"],
         dislikes: ["Loud noises during matches", "unfair play"],
-        image_url: "https://static.wikia.nocookie.net/haikyuu/images/9/9d/Ukai_s4-e7-1.png/revision/latest/scale-to-width-down/1000?cb=20200604102109",
+        image_url: "https://u.cubeupload.com/User713646/652Screenshot20230731at.png",
         wiki_page_url: "https://haikyuu.fandom.com/wiki/Keishin_Ukai"
     },
     {
@@ -84,7 +84,7 @@ const animeCharacters = [
         anime: "JoJo's Bizarre Adventure",
         likes: ["His hat", "his Stand: Star Platinum", "his friends"],
         dislikes: ["DIO", "injustice", "his father's absence"],
-        image_url: "https://static.wikia.nocookie.net/jjba/images/9/99/KujoAnime.png/revision/latest?cb=20161029182608",
+        image_url: "https://u.cubeupload.com/User713646/d7fScreenshot20230731at.png",
         wiki_page_url: "https://jojo.fandom.com/wiki/Jotaro_Kujo"
     },
     {
@@ -95,7 +95,7 @@ const animeCharacters = [
         anime: "Hunter x Hunter",
         likes: ["Strong opponents", "excitement", "children"],
         dislikes: ["Weak opponents", "boredom"],
-        image_url: "https://static.wikia.nocookie.net/hunterxhunter/images/2/29/Hisoka_Morow_YC_Portrait.png/revision/latest?cb=20190123172039",
+        image_url: "https://u.cubeupload.com/User713646/a0fScreenshot20230731at.png",
         wiki_page_url: "https://hunterxhunter.fandom.com/wiki/Hisoka_Morow"
     },
     {
@@ -106,7 +106,7 @@ const animeCharacters = [
         anime: "Naruto",
         likes: ["Reading", "his ninja dogs", "teaching"],
         dislikes: ["Laziness", "breaking rules"],
-        image_url: "https://static.wikia.nocookie.net/naruto/images/2/27/Kakashi_Hatake.png/revision/latest/scale-to-width-down/1000?cb=20170628120149",
+        image_url: "https://u.cubeupload.com/User713646/329Screenshot20230731at.png",
         wiki_page_url: "https://naruto.fandom.com/wiki/Kakashi_Hatake"
     },
     {
@@ -117,7 +117,7 @@ const animeCharacters = [
         anime: "Jujutsu Kaisen",
         likes: ["Jujutsu", "sweets", "teasing his students"],
         dislikes: ["Curses", "unnecessary rules"],
-        image_url: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/5a/Satoru_Gojo_arrives_on_the_battlefield_%28Anime%29.png/revision/latest/scale-to-width-down/1000?cb=20210226205256",
+        image_url: "https://u.cubeupload.com/User713646/312Screenshot20230731at.png",
         wiki_page_url: "https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo"
     },
     {
