@@ -23,6 +23,10 @@ app.get('/api/v1/characters', (req, res) => {
     res.status(200).json(app.locals.characters);
 });
 
+app.get('/api/v1/savedreports', (req, res) => {
+    res.status(200).json(app.locals.savedReports);
+});
+
 app.get('/api/v1/characters/:id', (req, res) => {
     let id = req.params.id
     let foundCharacter = app.locals.characters.find(man => man.id === parseInt(id))
