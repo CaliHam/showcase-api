@@ -29,12 +29,12 @@ app.get('/api/v1/savedreports', (req, res) => {
 
 app.get('/api/v1/characters/:id', (req, res) => {
     let id = req.params.id
-    let foundCharacter = app.locals.characters.find(man => man.id === parseInt(id))
+    let foundCharacter = app.locals.characters.find(character => character.id === parseInt(id))
     
     if (foundCharacter) {
         res.status(200).json(foundCharacter)
     } else {
-    res.sendStatus(404)
+        res.sendStatus(404)
     }
 })
 
