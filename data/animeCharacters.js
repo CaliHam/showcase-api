@@ -9,7 +9,7 @@ const animeCharacters = [
         anime: "Yu-Gi-Oh!",
         likes: ["Wine", "Gorgonzola cheese", "cartoons", "cards"],
         dislikes: ["Cuttlefish", "Squid"],
-        image_url: "https://u.cubeupload.com/User713646/aa4Screenshot20230731at.png",
+        image_url: "https://u.cubeupload.com/User713646/111Screenshot20230803at.png",
         wiki_page_url: "https://yugioh.fandom.com/wiki/Maximillion_Pegasus"
     },
     {
@@ -22,7 +22,7 @@ const animeCharacters = [
         anime: "Attack on Titan",
         likes: ["Freedom", "avenging his mother"],
         dislikes: ["Titans", "oppression", "being powerless"],
-        image_url: "https://u.cubeupload.com/User713646/Screenshot20230731at.png",
+        image_url: "https://u.cubeupload.com/User713646/d62Screenshot20230803at.png",
         wiki_page_url: "https://attackontitan.fandom.com/wiki/Eren_Yeager"
     },
     {
@@ -35,7 +35,7 @@ const animeCharacters = [
         anime: "One Piece",
         likes: ["Meat", "Adventure", "Becoming Pirate King"],
         dislikes: ["Negativity", "Being Betrayed"],
-        image_url: "https://u.cubeupload.com/User713646/c83Screenshot20230731at.png",
+        image_url: "https://u.cubeupload.com/User713646/Screenshot20230803at.png",
         wiki_page_url: "https://onepiece.fandom.com/wiki/Monkey_D._Luffy"
     },
     {
@@ -48,7 +48,7 @@ const animeCharacters = [
         anime: "Hunter X Hunter",
         likes: ["Helping people", "medicine", "money"],
         dislikes: ["Being looked down upon", "losing a friend"],
-        image_url: "https://u.cubeupload.com/User713646/ad9Screenshot20230731at.png",
+        image_url: "https://u.cubeupload.com/User713646/f95Screenshot20230803at.png",
         wiki_page_url: "https://hunterxhunter.fandom.com/wiki/Leorio_Paradinight"
     },
     {
@@ -61,7 +61,7 @@ const animeCharacters = [
         anime: "Cowboy Bebop",
         likes: ["Bell peppers and beef", "jazz music", "martial arts"],
         dislikes: ["Taking life seriously", "bureaucracy"],
-        image_url: "https://u.cubeupload.com/User713646/d89Screenshot20230731at.png",
+        image_url: "https://u.cubeupload.com/User713646/889Screenshot20230803at.png",
         wiki_page_url: "https://cowboybebop.fandom.com/wiki/Spike_Spiegel"
     },
     {
@@ -87,7 +87,7 @@ const animeCharacters = [
         anime: "Sailor Moon",
         likes: ["Track and field", "ventriloquism"],
         dislikes: ["needles", "Sailor Moon in danger"],
-        image_url: "https://u.cubeupload.com/User713646/Screenshot20230801at.png",
+        image_url: "https://u.cubeupload.com/User713646/2b9Screenshot20230803at.png",
         wiki_page_url: "https://sailormoon.fandom.com/wiki/Mamoru_Chiba_/_Tuxedo_Mask_(anime)"
     },
     {
@@ -100,7 +100,7 @@ const animeCharacters = [
         anime: "JoJo's Bizarre Adventure",
         likes: ["His hat", "his Stand: Star Platinum", "his friends"],
         dislikes: ["DIO", "injustice", "his father's absence"],
-        image_url: "https://u.cubeupload.com/User713646/d7fScreenshot20230731at.png",
+        image_url: "https://u.cubeupload.com/User713646/526Screenshot20230803at.png",
         wiki_page_url: "https://jojo.fandom.com/wiki/Jotaro_Kujo"
     },
     {
@@ -152,7 +152,7 @@ const animeCharacters = [
         anime: "One Piece",
         likes: ["Napping", "katanas", "becoming the world's greatest swordsman"],
         dislikes: ["Directions", "debt"],
-        image_url: "https://www.animeexplained.com/wp-content/uploads/2023/01/one-piece-zoro-1278854-1280x0-1.jpeg",
+        image_url: "https://u.cubeupload.com/User713646/985Screenshot20230803at.png",
         wiki_page_url: "https://onepiece.fandom.com/wiki/Roronoa_Zoro"
     }
 ]
