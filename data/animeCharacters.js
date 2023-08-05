@@ -136,7 +136,7 @@ const animeCharacters = [
         anime: "Naruto",
         likes: ["Reading", "his ninja dogs", "teaching"],
         dislikes: ["Laziness", "breaking rules"],
-        image_url: "https://u.cubeupload.com/User713646/329Screenshot20230731at.png",
+        image_url: "https://u.cubeupload.com/User713646/48cScreenshot20230804at.png",
         wiki_page_url: "https://naruto.fandom.com/wiki/Kakashi_Hatake"
     },
     {
@@ -150,7 +150,7 @@ const animeCharacters = [
         anime: "Jujutsu Kaisen",
         likes: ["Jujutsu", "sweets", "teasing his students"],
         dislikes: ["Curses", "unnecessary rules"],
-        image_url: "https://u.cubeupload.com/User713646/312Screenshot20230731at.png",
+        image_url: "https://u.cubeupload.com/User713646/62aScreenshot20230804at.png",
         wiki_page_url: "https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo"
     },
     {
@@ -192,7 +192,7 @@ const animeCharacters = [
         anime: "One Piece",
         likes: ["Tangerines", "drawing maps", "her friends", "money"],
         dislikes: ["Being in debt", "bad weather at sea"],
-        image_url: "https://u.cubeupload.com/User713646/9a8Screenshot20230804at.png",
+        image_url: "https://u.cubeupload.com/User713646/ad0Screenshot20230804at.png",
         wiki_page_url: "https://onepiece.fandom.com/wiki/Nami"
     },
     {
