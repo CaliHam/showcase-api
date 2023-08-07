@@ -240,10 +240,10 @@ const animeCharacters = [
     {
         id: 18,
         name: "Charmy Pappitson",
-        birthday: "May 2",
+        birthday: "June 3",
         gender: "Female",
-        month: 5,
-        day: 2,
+        month: 6,
+        day: 3,
         zodiac_sign: "Gemini",
         anime: "Black Clover",
         likes: ["Food", "cooking", "her Sheep-castle"],
